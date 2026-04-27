@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+
+# Logs (keep folder, ignore log files)
+Log/*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SSMS
+*.suo
+*.user
