@@ -10,6 +10,7 @@ SELECT
     p.prospect_id,
     p.p_fname,
     p.p_lname,
+    p.date_of_birth,
     p.position,
     p.height,
     p.weight,
@@ -22,6 +23,7 @@ SELECT
     cs.PPG,
     cs.RPG,
     cs.APG,
+    cs.TPG,
     cs.MPG,
     cs.games_played,
     cs.three_pt_pct,
@@ -35,7 +37,6 @@ FROM PROSPECT p
 JOIN COLLEGE c        ON p.college_id  = c.college_id
 JOIN COLLEGE_STATS cs ON p.prospect_id = cs.prospect_id;
 GO
-
 -- prospest ranking
 -- SELECT * FROM draft_class_rankings
 CREATE VIEW draft_class_rankings AS
