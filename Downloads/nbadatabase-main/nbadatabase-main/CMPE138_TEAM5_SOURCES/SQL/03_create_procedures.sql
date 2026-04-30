@@ -71,10 +71,14 @@ END;
 GO
 
 -- inserts a new prospect and their stats in one transaction
--- use: EXEC sp_add_prospect 'John', 'Doe', 'PG', 2026, 1, 30, 18.5, 5.2, 4.1;
+-- use: EXEC sp_add_prospect 'John', 'Doe', '2000-01-01', 'New York, NY', '6-6', 200, 'PG', 2026, 1, 30, 18.5, 5.2, 4.1;
 CREATE PROCEDURE sp_add_prospect
     @p_fname        VARCHAR(50),
     @p_lname        VARCHAR(50),
+    @date_of_birth  DATE         = NULL,
+    @hometown       VARCHAR(100) = NULL,
+    @height         VARCHAR(10)  = NULL,
+    @weight         INT          = NULL,
     @position       VARCHAR(20),
     @draft_year     INT,
     @college_id     INT,
@@ -86,8 +90,8 @@ AS
 BEGIN
     BEGIN TRANSACTION;
     BEGIN TRY
-        INSERT INTO PROSPECT (p_fname, p_lname, position, draft_year, college_id, eligibility_status)
-        VALUES (@p_fname, @p_lname, @position, @draft_year, @college_id, 'Freshman');
+        INSERT INTO PROSPECT (p_fname, p_lname, date_of_birth, hometown, height, weight, position, draft_year, college_id, eligibility_status)
+        VALUES (@p_fname, @p_lname, @date_of_birth, @hometown, @height, @weight, @position, @draft_year, @college_id, 'Freshman');
 
         DECLARE @new_id INT = SCOPE_IDENTITY();
 

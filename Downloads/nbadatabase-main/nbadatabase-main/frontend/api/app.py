@@ -376,7 +376,32 @@ def api_add_prospect():
     if 'user' not in session or session['user']['role'] != 'ADMIN': return jsonify({'error':'Forbidden'}),403
     if not DB_AVAILABLE: return jsonify({'ok': False, 'message': 'Connect DB to add prospects.'}), 503
     d = request.json or {}
-    ok, msg = add_prospect(d['p_fname'], d['p_lname'], d['position'], d['draft_year'], d['college_id'], d['games_played'], d['PPG'], d['RPG'], d['APG'])
+    # look up college_id by name, or insert new college if it doesn't exist
+    try:
+        from db import get_connection
+        conn = get_connection()
+        cursor = conn.cursor()
+        college_name = d.get('college_name', '').strip()
+        cursor.execute("SELECT college_id FROM COLLEGE WHERE c_name = ?", college_name)
+        row = cursor.fetchone()
+        if row:
+            college_id = row[0]
+        else:
+            cursor.execute("INSERT INTO COLLEGE (c_name, conference, division) VALUES (?, 'Unknown', 'Division I')", college_name)
+            cursor.execute("SELECT MAX(college_id) FROM COLLEGE")
+            college_id = cursor.fetchone()[0]
+            conn.commit()
+        conn.close()
+    except Exception as e:
+        return jsonify({'ok': False, 'message': f'College lookup failed: {e}'}), 400
+    ok, msg = add_prospect(
+        d['p_fname'], d['p_lname'], d['position'], d['draft_year'],
+        college_id, d['games_played'], d['PPG'], d['RPG'], d['APG'],
+        date_of_birth=d.get('date_of_birth') or None,
+        hometown=d.get('hometown') or None,
+        height=d.get('height') or None,
+        weight=int(d['weight']) if d.get('weight') else None
+    )
     return jsonify({'ok': ok, 'message': msg}), (200 if ok else 400)
 
 @app.route('/api/admin/prospects/<int:pid>', methods=['DELETE'])

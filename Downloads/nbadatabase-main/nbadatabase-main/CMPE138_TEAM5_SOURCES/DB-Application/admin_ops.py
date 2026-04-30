@@ -59,14 +59,15 @@ def deactivate_user(user_id):
         return False, str(e)
 
 def add_prospect(p_fname, p_lname, position, draft_year, college_id,
-                 games_played, PPG, RPG, APG):
+                 games_played, PPG, RPG, APG,
+                 date_of_birth=None, hometown=None, height=None, weight=None):
     try:
         conn = get_connection()
         cursor = conn.cursor()
         cursor.execute(
-            """INSERT INTO PROSPECT (p_fname, p_lname, position, draft_year, college_id, eligibility_status)
-               VALUES (?, ?, ?, ?, ?, 'Freshman')""",
-            p_fname, p_lname, position, draft_year, college_id
+            """INSERT INTO PROSPECT (p_fname, p_lname, date_of_birth, hometown, height, weight, position, draft_year, college_id, eligibility_status)
+               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Freshman')""",
+            p_fname, p_lname, date_of_birth, hometown, height, weight, position, draft_year, college_id
         )
         cursor.execute("SELECT MAX(prospect_id) FROM PROSPECT")
         new_id = cursor.fetchone()[0]

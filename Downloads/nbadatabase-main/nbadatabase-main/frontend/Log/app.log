@@ -971,3 +971,485 @@
 2026-04-26 17:13:31,279 [INFO] 127.0.0.1 - - [26/Apr/2026 17:13:31] "GET /api/archetypes HTTP/1.1" 200 -
 2026-04-26 17:13:31,281 [INFO] 127.0.0.1 - - [26/Apr/2026 17:13:31] "GET /api/prospects HTTP/1.1" 200 -
 2026-04-26 17:13:31,288 [INFO] 127.0.0.1 - - [26/Apr/2026 17:13:31] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:05:28,823 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-26 22:05:28,823 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-26 22:05:28,824 [INFO]  * Restarting with stat
+2026-04-26 22:05:29,085 [WARNING]  * Debugger is active!
+2026-04-26 22:05:29,091 [INFO]  * Debugger PIN: 452-708-066
+2026-04-26 22:05:45,697 [INFO] 127.0.0.1 - - [26/Apr/2026 22:05:45] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:05:45,699 [INFO] 127.0.0.1 - - [26/Apr/2026 22:05:45] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:05:45,706 [INFO] 127.0.0.1 - - [26/Apr/2026 22:05:45] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:05:46,547 [INFO] 127.0.0.1 - - [26/Apr/2026 22:05:46] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:24:59,632 [INFO] Login success: admin@nbascout.com
+2026-04-26 22:24:59,633 [INFO] 127.0.0.1 - - [26/Apr/2026 22:24:59] "POST /api/login HTTP/1.1" 200 -
+2026-04-26 22:24:59,669 [INFO] 127.0.0.1 - - [26/Apr/2026 22:24:59] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:25:00,516 [INFO] 127.0.0.1 - - [26/Apr/2026 22:25:00] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:25:00,523 [INFO] 127.0.0.1 - - [26/Apr/2026 22:25:00] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:25:00,527 [INFO] 127.0.0.1 - - [26/Apr/2026 22:25:00] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:25:00,528 [INFO] 127.0.0.1 - - [26/Apr/2026 22:25:00] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:25:00,534 [INFO] 127.0.0.1 - - [26/Apr/2026 22:25:00] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:29:11,664 [INFO] User created: bron@nbascout.com (SCOUT)
+2026-04-26 22:29:11,665 [INFO] 127.0.0.1 - - [26/Apr/2026 22:29:11] "POST /api/users HTTP/1.1" 200 -
+2026-04-26 22:29:11,673 [INFO] 127.0.0.1 - - [26/Apr/2026 22:29:11] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:31:56,167 [INFO] Prospect added: Test Prospect 1 ID 26
+2026-04-26 22:31:56,168 [INFO] 127.0.0.1 - - [26/Apr/2026 22:31:56] "POST /api/admin/prospects HTTP/1.1" 200 -
+2026-04-26 22:31:56,183 [INFO] 127.0.0.1 - - [26/Apr/2026 22:31:56] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:34:40,851 [INFO] Prospect deleted: 26
+2026-04-26 22:34:40,852 [INFO] 127.0.0.1 - - [26/Apr/2026 22:34:40] "DELETE /api/admin/prospects/26 HTTP/1.1" 200 -
+2026-04-26 22:41:40,760 [INFO] 127.0.0.1 - - [26/Apr/2026 22:41:40] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:41:40,766 [INFO] 127.0.0.1 - - [26/Apr/2026 22:41:40] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:41:40,766 [INFO] 127.0.0.1 - - [26/Apr/2026 22:41:40] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:42:27,324 [INFO]  * Detected change in 'C:\\Users\\filho\\Downloads\\nbadatabase-main\\nbadatabase-main\\CMPE138_TEAM5_SOURCES\\DB-Application\\admin_ops.py', reloading
+2026-04-26 22:42:27,382 [INFO]  * Restarting with stat
+2026-04-26 22:42:27,663 [WARNING]  * Debugger is active!
+2026-04-26 22:42:27,668 [INFO]  * Debugger PIN: 452-708-066
+2026-04-26 22:43:00,794 [INFO]  * Detected change in 'C:\\Users\\filho\\Downloads\\nbadatabase-main\\nbadatabase-main\\frontend\\api\\app.py', reloading
+2026-04-26 22:43:00,828 [INFO]  * Restarting with stat
+2026-04-26 22:43:01,106 [WARNING]  * Debugger is active!
+2026-04-26 22:43:01,111 [INFO]  * Debugger PIN: 452-708-066
+2026-04-26 22:43:41,296 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-26 22:43:41,297 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-26 22:43:41,298 [INFO]  * Restarting with stat
+2026-04-26 22:43:41,549 [WARNING]  * Debugger is active!
+2026-04-26 22:43:41,553 [INFO]  * Debugger PIN: 452-708-066
+2026-04-26 22:47:15,044 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:15] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:47:15,051 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:15] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:47:15,051 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:15] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:47:15,058 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:15] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:47:18,151 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:18] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:47:18,153 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:18] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:47:18,160 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:18] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:47:18,161 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:18] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:47:18,994 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:18] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:47:19,000 [INFO] 127.0.0.1 - - [26/Apr/2026 22:47:19] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:50:19,745 [INFO] 127.0.0.1 - - [26/Apr/2026 22:50:19] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:50:19,746 [INFO] 127.0.0.1 - - [26/Apr/2026 22:50:19] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:50:19,751 [INFO] 127.0.0.1 - - [26/Apr/2026 22:50:19] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:50:32,961 [INFO]  * Detected change in 'C:\\Users\\filho\\Downloads\\nbadatabase-main\\nbadatabase-main\\frontend\\api\\app.py', reloading
+2026-04-26 22:50:32,993 [INFO]  * Restarting with stat
+2026-04-26 22:50:33,252 [WARNING]  * Debugger is active!
+2026-04-26 22:50:33,257 [INFO]  * Debugger PIN: 452-708-066
+2026-04-26 22:50:48,175 [INFO] 127.0.0.1 - - [26/Apr/2026 22:50:48] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:50:48,175 [INFO] 127.0.0.1 - - [26/Apr/2026 22:50:48] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:50:48,180 [INFO] 127.0.0.1 - - [26/Apr/2026 22:50:48] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:50:48,182 [INFO] 127.0.0.1 - - [26/Apr/2026 22:50:48] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:50:48,182 [INFO] 127.0.0.1 - - [26/Apr/2026 22:50:48] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:50:49,035 [INFO] 127.0.0.1 - - [26/Apr/2026 22:50:49] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:54:40,761 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:40] "POST /api/logout HTTP/1.1" 200 -
+2026-04-26 22:54:42,105 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:42] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:54:42,106 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:42] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:54:42,111 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:42] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:54:42,961 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:42] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:54:54,000 [ERROR] Login failed: admin@nbascout.com
+2026-04-26 22:54:54,000 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:54] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-04-26 22:54:55,692 [INFO] Login success: admin@nbascout.com
+2026-04-26 22:54:55,693 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:55] "POST /api/login HTTP/1.1" 200 -
+2026-04-26 22:54:55,723 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:55] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:54:55,734 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:55] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:54:55,740 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:55] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:54:56,988 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:56] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 22:54:56,988 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:56] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:54:56,993 [INFO] 127.0.0.1 - - [26/Apr/2026 22:54:56] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 22:55:31,205 [INFO] Prospect deleted: 27
+2026-04-26 22:55:31,206 [INFO] 127.0.0.1 - - [26/Apr/2026 22:55:31] "DELETE /api/admin/prospects/27 HTTP/1.1" 200 -
+2026-04-26 22:56:03,898 [INFO] Prospect added: Test PLater ID 28
+2026-04-26 22:56:03,898 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:03] "POST /api/admin/prospects HTTP/1.1" 200 -
+2026-04-26 22:56:03,912 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:03] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:56:32,635 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:32] "POST /api/logout HTTP/1.1" 200 -
+2026-04-26 22:56:33,936 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:33] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:56:33,936 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:33] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:56:33,943 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:33] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:56:34,790 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:34] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:56:46,863 [ERROR] Login failed: lebron@nbascout.com
+2026-04-26 22:56:46,863 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:46] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-04-26 22:56:55,699 [INFO] Login success: bron@nbascout.com
+2026-04-26 22:56:55,699 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:55] "POST /api/login HTTP/1.1" 200 -
+2026-04-26 22:56:55,734 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:55] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-26 22:56:55,739 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:55] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-26 22:56:57,005 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:57] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:56:57,012 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:57] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 22:56:57,014 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:57] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:56:57,019 [INFO] 127.0.0.1 - - [26/Apr/2026 22:56:57] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 22:57:20,196 [INFO] Report submitted: scout 10 -> prospect 28
+2026-04-26 22:57:20,196 [INFO] 127.0.0.1 - - [26/Apr/2026 22:57:20] "POST /api/reports HTTP/1.1" 200 -
+2026-04-26 22:57:34,659 [INFO] Flag tagged: prospect 28 - hustle player
+2026-04-26 22:57:34,659 [INFO] 127.0.0.1 - - [26/Apr/2026 22:57:34] "POST /api/flags HTTP/1.1" 200 -
+2026-04-26 22:57:40,845 [INFO] 127.0.0.1 - - [26/Apr/2026 22:57:40] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 22:57:40,851 [INFO] 127.0.0.1 - - [26/Apr/2026 22:57:40] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 22:57:42,101 [INFO] 127.0.0.1 - - [26/Apr/2026 22:57:42] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-26 22:57:42,106 [INFO] 127.0.0.1 - - [26/Apr/2026 22:57:42] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:57:42,106 [INFO] 127.0.0.1 - - [26/Apr/2026 22:57:42] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-26 22:57:42,112 [INFO] 127.0.0.1 - - [26/Apr/2026 22:57:42] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:59:24,150 [INFO] 127.0.0.1 - - [26/Apr/2026 22:59:24] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:59:24,151 [INFO] 127.0.0.1 - - [26/Apr/2026 22:59:24] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 22:59:24,156 [INFO] 127.0.0.1 - - [26/Apr/2026 22:59:24] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 22:59:24,158 [INFO] 127.0.0.1 - - [26/Apr/2026 22:59:24] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:00:04,162 [INFO] 127.0.0.1 - - [26/Apr/2026 23:00:04] "GET /api/prospects/28 HTTP/1.1" 200 -
+2026-04-26 23:00:04,167 [INFO] 127.0.0.1 - - [26/Apr/2026 23:00:04] "GET /api/prospects/28 HTTP/1.1" 200 -
+2026-04-26 23:02:30,400 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:30] "POST /api/logout HTTP/1.1" 200 -
+2026-04-26 23:02:31,699 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:31] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 23:02:31,701 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:31] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:02:31,707 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:31] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 23:02:31,708 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:31] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:02:35,619 [INFO] Login success: admin@nbascout.com
+2026-04-26 23:02:35,620 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:35] "POST /api/login HTTP/1.1" 200 -
+2026-04-26 23:02:35,653 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:35] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 23:02:35,654 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:35] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:02:35,661 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:35] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 23:02:35,662 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:35] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:02:36,489 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:36] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 23:02:36,494 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:36] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 23:02:37,683 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:37] "POST /api/logout HTTP/1.1" 200 -
+2026-04-26 23:02:37,710 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:37] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 23:02:37,716 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:37] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 23:02:38,556 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:38] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:02:38,561 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:38] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:02:41,410 [INFO] Login success: analyst@nbascout.com
+2026-04-26 23:02:41,410 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:41] "POST /api/login HTTP/1.1" 200 -
+2026-04-26 23:02:41,449 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:41] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:02:41,453 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:41] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-26 23:02:41,457 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:41] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:02:41,461 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:41] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-26 23:02:42,290 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-26 23:02:42,296 [INFO] 127.0.0.1 - - [26/Apr/2026 23:02:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-26 23:03:30,292 [INFO] 127.0.0.1 - - [26/Apr/2026 23:03:30] "GET /api/prospects/28 HTTP/1.1" 200 -
+2026-04-26 23:03:30,297 [INFO] 127.0.0.1 - - [26/Apr/2026 23:03:30] "GET /api/prospects/28 HTTP/1.1" 200 -
+2026-04-26 23:03:32,360 [INFO] 127.0.0.1 - - [26/Apr/2026 23:03:32] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-26 23:03:32,361 [INFO] 127.0.0.1 - - [26/Apr/2026 23:03:32] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:03:32,362 [INFO] 127.0.0.1 - - [26/Apr/2026 23:03:32] "GET /api/stats HTTP/1.1" 200 -
+2026-04-26 23:03:32,370 [INFO] 127.0.0.1 - - [26/Apr/2026 23:03:32] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-26 23:03:32,372 [INFO] 127.0.0.1 - - [26/Apr/2026 23:03:32] "GET /api/stats HTTP/1.1" 200 -
+2026-04-26 23:03:33,648 [INFO] 127.0.0.1 - - [26/Apr/2026 23:03:33] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:04:05,299 [INFO] 127.0.0.1 - - [26/Apr/2026 23:04:05] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-26 23:04:05,305 [INFO] 127.0.0.1 - - [26/Apr/2026 23:04:05] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-26 23:04:09,697 [INFO] 127.0.0.1 - - [26/Apr/2026 23:04:09] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:04:09,701 [INFO] 127.0.0.1 - - [26/Apr/2026 23:04:09] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-26 23:04:09,704 [INFO] 127.0.0.1 - - [26/Apr/2026 23:04:09] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:04:09,708 [INFO] 127.0.0.1 - - [26/Apr/2026 23:04:09] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-26 23:04:10,968 [INFO] 127.0.0.1 - - [26/Apr/2026 23:04:10] "GET /api/stats HTTP/1.1" 200 -
+2026-04-26 23:04:10,974 [INFO] 127.0.0.1 - - [26/Apr/2026 23:04:10] "GET /api/stats HTTP/1.1" 200 -
+2026-04-26 23:07:48,714 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:48] "POST /api/logout HTTP/1.1" 200 -
+2026-04-26 23:07:50,012 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:50] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 23:07:50,013 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:50] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:07:50,019 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:50] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 23:07:50,020 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:50] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:07:53,914 [INFO] Login success: gm1@nbascout.com
+2026-04-26 23:07:53,914 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:53] "POST /api/login HTTP/1.1" 200 -
+2026-04-26 23:07:53,955 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:53] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:07:53,955 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:53] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:07:53,962 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:53] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:07:53,963 [INFO] 127.0.0.1 - - [26/Apr/2026 23:07:53] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:08:03,553 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:03] "GET /api/filter HTTP/1.1" 200 -
+2026-04-26 23:08:05,420 [INFO] GM 5 removed prospect 5 from shortlist
+2026-04-26 23:08:05,421 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:05] "DELETE /api/shortlist/5 HTTP/1.1" 200 -
+2026-04-26 23:08:11,539 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:11] "GET /api/prospects/28 HTTP/1.1" 200 -
+2026-04-26 23:08:11,544 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:11] "GET /api/prospects/28 HTTP/1.1" 200 -
+2026-04-26 23:08:13,705 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:13] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:08:13,705 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:13] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:08:13,711 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:13] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:08:13,712 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:13] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:08:17,733 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:17] "GET /api/filter HTTP/1.1" 200 -
+2026-04-26 23:08:35,254 [INFO] GM 5 shortlisted prospect 28
+2026-04-26 23:08:35,255 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:35] "POST /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:08:35,261 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:35] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:08:43,400 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:43] "GET /api/prospects/7 HTTP/1.1" 200 -
+2026-04-26 23:08:43,406 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:43] "GET /api/prospects/7 HTTP/1.1" 200 -
+2026-04-26 23:08:50,570 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:50] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:08:51,829 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:51] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:08:51,834 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:51] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:08:51,843 [INFO] 127.0.0.1 - - [26/Apr/2026 23:08:51] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:09:08,728 [INFO] 127.0.0.1 - - [26/Apr/2026 23:09:08] "GET /api/filter HTTP/1.1" 200 -
+2026-04-26 23:09:09,441 [INFO] 127.0.0.1 - - [26/Apr/2026 23:09:09] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-26 23:09:09,447 [INFO] 127.0.0.1 - - [26/Apr/2026 23:09:09] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-26 23:09:14,809 [INFO] 127.0.0.1 - - [26/Apr/2026 23:09:14] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:09:14,812 [INFO] 127.0.0.1 - - [26/Apr/2026 23:09:14] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:09:14,815 [INFO] 127.0.0.1 - - [26/Apr/2026 23:09:14] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:09:14,819 [INFO] 127.0.0.1 - - [26/Apr/2026 23:09:14] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:09:17,991 [INFO] 127.0.0.1 - - [26/Apr/2026 23:09:17] "GET /api/filter HTTP/1.1" 200 -
+2026-04-26 23:11:56,747 [INFO] 127.0.0.1 - - [26/Apr/2026 23:11:56] "GET /api/reports HTTP/1.1" 200 -
+2026-04-26 23:11:56,749 [INFO] 127.0.0.1 - - [26/Apr/2026 23:11:56] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-26 23:12:00,231 [INFO] GM 5 removed prospect 28 from shortlist
+2026-04-26 23:12:00,231 [INFO] 127.0.0.1 - - [26/Apr/2026 23:12:00] "DELETE /api/shortlist/28 HTTP/1.1" 200 -
+2026-04-26 23:26:17,515 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:17] "POST /api/logout HTTP/1.1" 200 -
+2026-04-26 23:26:18,825 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:18] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 23:26:18,826 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:18] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:26:18,831 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:18] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 23:26:18,833 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:18] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:26:19,875 [INFO] Login success: admin@nbascout.com
+2026-04-26 23:26:19,876 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:19] "POST /api/login HTTP/1.1" 200 -
+2026-04-26 23:26:19,892 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:19] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 23:26:19,896 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:19] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:26:19,899 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:19] "GET /api/users HTTP/1.1" 200 -
+2026-04-26 23:26:19,903 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:19] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:26:20,735 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:20] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 23:26:20,741 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:20] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-26 23:26:30,037 [INFO] Prospect deleted: 28
+2026-04-26 23:26:30,037 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:30] "DELETE /api/admin/prospects/28 HTTP/1.1" 200 -
+2026-04-26 23:26:34,465 [INFO] User deleted: 10
+2026-04-26 23:26:34,465 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:34] "DELETE /api/users/10 HTTP/1.1" 200 -
+2026-04-26 23:26:35,367 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:35] "POST /api/logout HTTP/1.1" 200 -
+2026-04-26 23:26:35,389 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:35] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-26 23:26:35,398 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:35] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:26:35,404 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:35] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-26 23:26:36,669 [INFO] 127.0.0.1 - - [26/Apr/2026 23:26:36] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:14:09,845 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5001
+2026-04-28 19:14:09,846 [INFO] [33mPress CTRL+C to quit[0m
+2026-04-28 19:14:09,847 [INFO]  * Restarting with stat
+2026-04-28 19:14:10,109 [WARNING]  * Debugger is active!
+2026-04-28 19:14:10,114 [INFO]  * Debugger PIN: 452-708-066
+2026-04-28 19:14:21,555 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:21] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:14:21,563 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:21] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:14:21,567 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:21] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:14:21,574 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:21] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:14:27,208 [INFO] Login success: admin@nbascout.com
+2026-04-28 19:14:27,209 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:27] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 19:14:28,066 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:28] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-28 19:14:28,067 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:28] "GET /api/users HTTP/1.1" 200 -
+2026-04-28 19:14:28,067 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:28] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:14:28,076 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:28] "GET /api/users HTTP/1.1" 200 -
+2026-04-28 19:14:28,077 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:28] "GET /api/colleges HTTP/1.1" 200 -
+2026-04-28 19:14:28,078 [INFO] 127.0.0.1 - - [28/Apr/2026 19:14:28] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:27:13,947 [INFO] Prospect added: z z ID 29
+2026-04-28 19:27:13,948 [INFO] 127.0.0.1 - - [28/Apr/2026 19:27:13] "POST /api/admin/prospects HTTP/1.1" 200 -
+2026-04-28 19:27:13,966 [INFO] 127.0.0.1 - - [28/Apr/2026 19:27:13] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:30:20,616 [INFO] Prospect deleted: 29
+2026-04-28 19:30:20,616 [INFO] 127.0.0.1 - - [28/Apr/2026 19:30:20] "DELETE /api/admin/prospects/29 HTTP/1.1" 200 -
+2026-04-28 19:32:56,884 [INFO] Prospect added: z z ID 30
+2026-04-28 19:32:56,885 [INFO] 127.0.0.1 - - [28/Apr/2026 19:32:56] "POST /api/admin/prospects HTTP/1.1" 200 -
+2026-04-28 19:32:56,903 [INFO] 127.0.0.1 - - [28/Apr/2026 19:32:56] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:33:04,016 [INFO] Prospect added: 1 2 ID 31
+2026-04-28 19:33:04,016 [INFO] 127.0.0.1 - - [28/Apr/2026 19:33:04] "POST /api/admin/prospects HTTP/1.1" 200 -
+2026-04-28 19:33:04,035 [INFO] 127.0.0.1 - - [28/Apr/2026 19:33:04] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:33:13,581 [INFO] Prospect deleted: 30
+2026-04-28 19:33:13,581 [INFO] 127.0.0.1 - - [28/Apr/2026 19:33:13] "DELETE /api/admin/prospects/30 HTTP/1.1" 200 -
+2026-04-28 19:33:25,773 [INFO] Prospect deleted: 31
+2026-04-28 19:33:25,774 [INFO] 127.0.0.1 - - [28/Apr/2026 19:33:25] "DELETE /api/admin/prospects/31 HTTP/1.1" 200 -
+2026-04-28 19:41:08,777 [INFO] 127.0.0.1 - - [28/Apr/2026 19:41:08] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 19:41:10,111 [INFO] 127.0.0.1 - - [28/Apr/2026 19:41:10] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:41:10,112 [INFO] 127.0.0.1 - - [28/Apr/2026 19:41:10] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:41:10,123 [INFO] 127.0.0.1 - - [28/Apr/2026 19:41:10] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:41:10,125 [INFO] 127.0.0.1 - - [28/Apr/2026 19:41:10] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:41:23,960 [ERROR] Login failed: bron@nbascout.com
+2026-04-28 19:41:23,960 [INFO] 127.0.0.1 - - [28/Apr/2026 19:41:23] "[31m[1mPOST /api/login HTTP/1.1[0m" 401 -
+2026-04-28 19:43:34,396 [INFO] Login success: scout1@nbascout.com
+2026-04-28 19:43:34,397 [INFO] 127.0.0.1 - - [28/Apr/2026 19:43:34] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 19:43:34,445 [INFO] 127.0.0.1 - - [28/Apr/2026 19:43:34] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-28 19:43:34,454 [INFO] 127.0.0.1 - - [28/Apr/2026 19:43:34] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-28 19:43:35,302 [INFO] 127.0.0.1 - - [28/Apr/2026 19:43:35] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 19:43:35,303 [INFO] 127.0.0.1 - - [28/Apr/2026 19:43:35] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:43:35,312 [INFO] 127.0.0.1 - - [28/Apr/2026 19:43:35] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 19:43:35,314 [INFO] 127.0.0.1 - - [28/Apr/2026 19:43:35] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:47:26,303 [INFO] 127.0.0.1 - - [28/Apr/2026 19:47:26] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:47:26,312 [INFO] 127.0.0.1 - - [28/Apr/2026 19:47:26] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:47:26,313 [INFO] 127.0.0.1 - - [28/Apr/2026 19:47:26] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:47:26,323 [INFO] 127.0.0.1 - - [28/Apr/2026 19:47:26] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:48:19,113 [INFO] 127.0.0.1 - - [28/Apr/2026 19:48:19] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-28 19:48:20,395 [INFO] 127.0.0.1 - - [28/Apr/2026 19:48:20] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:48:20,395 [INFO] 127.0.0.1 - - [28/Apr/2026 19:48:20] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 19:48:20,406 [INFO] 127.0.0.1 - - [28/Apr/2026 19:48:20] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-28 19:48:20,419 [INFO] 127.0.0.1 - - [28/Apr/2026 19:48:20] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:48:21,259 [INFO] 127.0.0.1 - - [28/Apr/2026 19:48:21] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 19:51:32,771 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:32] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 19:51:34,091 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:34] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:51:34,100 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:34] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:51:34,101 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:34] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:51:34,109 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:34] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:51:36,063 [INFO] Login success: analyst@nbascout.com
+2026-04-28 19:51:36,064 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:36] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 19:51:36,100 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:36] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 19:51:36,115 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:36] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 19:51:36,125 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:36] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 19:51:36,977 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:36] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 19:51:36,979 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:36] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 19:51:36,987 [INFO] 127.0.0.1 - - [28/Apr/2026 19:51:36] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 19:52:08,661 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:08] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 19:52:08,678 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:08] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:52:08,691 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:08] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:52:08,701 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:08] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:52:08,707 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:08] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:52:39,419 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:39] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 19:52:39,427 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:39] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 19:52:50,085 [INFO] Login success: fan1@nbascout.com
+2026-04-28 19:52:50,085 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:50] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 19:52:50,103 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:50] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:52:50,114 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:50] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:52:50,118 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:50] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:52:50,127 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:50] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:52:50,862 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:50] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 19:52:50,869 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:50] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 19:52:53,741 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:53] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:52:53,743 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:53] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:52:53,752 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:53] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:52:53,753 [INFO] 127.0.0.1 - - [28/Apr/2026 19:52:53] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:54:44,136 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:44] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 19:54:47,702 [INFO] Login success: gm1@nbascout.com
+2026-04-28 19:54:47,703 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:47] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 19:54:47,731 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:47] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 19:54:48,578 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:48] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 19:54:48,579 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:48] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 19:54:48,585 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:48] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 19:54:48,768 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:48] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 19:54:48,796 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:48] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:54:48,804 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:48] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:54:48,805 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:48] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 19:54:48,814 [INFO] 127.0.0.1 - - [28/Apr/2026 19:54:48] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 19:58:39,295 [INFO] 127.0.0.1 - - [28/Apr/2026 19:58:39] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 19:58:39,304 [INFO] 127.0.0.1 - - [28/Apr/2026 19:58:39] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:02,277 [INFO] Login success: analyst@nbascout.com
+2026-04-28 20:00:02,277 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:02] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 20:00:02,307 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:02] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:00:03,149 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:03] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:00:03,154 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:03] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:00:03,159 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:03] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:00:03,999 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:03] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:00:04,013 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:04] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:00:06,234 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:06] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:06,243 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:06] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:09,136 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:09] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 20:00:09,171 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:09] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:00:09,179 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:09] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:00:10,443 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:10] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:00:10,450 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:10] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:00:11,273 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:11] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:11,282 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:11] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:13,844 [INFO] Login success: analyst@nbascout.com
+2026-04-28 20:00:13,844 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:13] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 20:00:13,875 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:13] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:00:13,878 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:13] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:00:13,886 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:13] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:00:14,724 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:14] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:00:14,735 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:14] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:00:14,736 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:14] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:00:16,149 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:16] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:16,158 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:16] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:18,757 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:18] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 20:00:18,785 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:18] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:00:18,786 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:18] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:00:18,795 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:18] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:00:18,798 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:18] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:00:19,607 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:19] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:19,614 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:19] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:24,002 [INFO] Login success: analyst@nbascout.com
+2026-04-28 20:00:24,003 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:24] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 20:00:24,026 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:24] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:00:24,029 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:24] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:00:24,032 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:24] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:00:24,040 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:24] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:00:24,042 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:24] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:00:24,047 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:24] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:00:30,217 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:30] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:00:30,225 [INFO] 127.0.0.1 - - [28/Apr/2026 20:00:30] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:02:42,908 [INFO] 127.0.0.1 - - [28/Apr/2026 20:02:42] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:02:42,924 [INFO] 127.0.0.1 - - [28/Apr/2026 20:02:42] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:02:42,925 [INFO] 127.0.0.1 - - [28/Apr/2026 20:02:42] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:02:42,933 [INFO] 127.0.0.1 - - [28/Apr/2026 20:02:42] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:02:42,936 [INFO] 127.0.0.1 - - [28/Apr/2026 20:02:42] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:02:43,776 [INFO] 127.0.0.1 - - [28/Apr/2026 20:02:43] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:04:50,332 [INFO] 127.0.0.1 - - [28/Apr/2026 20:04:50] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:04:51,198 [INFO] 127.0.0.1 - - [28/Apr/2026 20:04:51] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:07:13,792 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:13] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 20:07:15,103 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:15] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:07:15,111 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:15] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:07:15,120 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:15] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:07:15,962 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:15] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:07:16,649 [INFO] Login success: gm1@nbascout.com
+2026-04-28 20:07:16,649 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:16] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 20:07:17,043 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:07:17,051 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:07:17,052 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:07:17,516 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:07:17,517 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:07:17,525 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:07:17,525 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:07:17,567 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:07:17,575 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:07:17,890 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:17] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:07:19,255 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:19] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:07:19,263 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:19] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:07:20,094 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:20] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:07:20,102 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:20] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:07:21,860 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:21] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:07:21,861 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:21] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:07:21,870 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:21] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:07:21,871 [INFO] 127.0.0.1 - - [28/Apr/2026 20:07:21] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:08:27,648 [INFO] 127.0.0.1 - - [28/Apr/2026 20:08:27] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:08:27,650 [INFO] 127.0.0.1 - - [28/Apr/2026 20:08:27] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:08:27,658 [INFO] 127.0.0.1 - - [28/Apr/2026 20:08:27] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:08:28,282 [INFO] 127.0.0.1 - - [28/Apr/2026 20:08:28] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:08:28,508 [INFO] 127.0.0.1 - - [28/Apr/2026 20:08:28] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:08:29,140 [INFO] 127.0.0.1 - - [28/Apr/2026 20:08:29] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:09:01,832 [INFO] 127.0.0.1 - - [28/Apr/2026 20:09:01] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:09:01,841 [INFO] 127.0.0.1 - - [28/Apr/2026 20:09:01] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:09:45,333 [INFO] 127.0.0.1 - - [28/Apr/2026 20:09:45] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:09:45,333 [INFO] 127.0.0.1 - - [28/Apr/2026 20:09:45] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:09:45,339 [INFO] 127.0.0.1 - - [28/Apr/2026 20:09:45] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:09:46,168 [INFO] 127.0.0.1 - - [28/Apr/2026 20:09:46] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:10:10,530 [INFO] 127.0.0.1 - - [28/Apr/2026 20:10:10] "GET /api/filter?min_PPG=-1 HTTP/1.1" 200 -
+2026-04-28 20:10:19,353 [INFO] 127.0.0.1 - - [28/Apr/2026 20:10:19] "GET /api/filter?min_PPG=100 HTTP/1.1" 200 -
+2026-04-28 20:10:19,912 [INFO] 127.0.0.1 - - [28/Apr/2026 20:10:19] "GET /api/filter?min_PPG=100 HTTP/1.1" 200 -
+2026-04-28 20:12:36,311 [INFO] 127.0.0.1 - - [28/Apr/2026 20:12:36] "GET /api/filter HTTP/1.1" 200 -
+2026-04-28 20:12:39,857 [INFO] 127.0.0.1 - - [28/Apr/2026 20:12:39] "GET /api/filter?position=PG&min_PPG=18 HTTP/1.1" 200 -
+2026-04-28 20:12:42,940 [INFO] 127.0.0.1 - - [28/Apr/2026 20:12:42] "GET /api/filter?position=PG&min_PPG=15 HTTP/1.1" 200 -
+2026-04-28 20:12:50,034 [INFO] 127.0.0.1 - - [28/Apr/2026 20:12:50] "GET /api/filter?position=PG&min_PPG=20 HTTP/1.1" 200 -
+2026-04-28 20:16:20,397 [INFO] 127.0.0.1 - - [28/Apr/2026 20:16:20] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:16:20,399 [INFO] 127.0.0.1 - - [28/Apr/2026 20:16:20] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:16:20,408 [INFO] 127.0.0.1 - - [28/Apr/2026 20:16:20] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:16:21,255 [INFO] 127.0.0.1 - - [28/Apr/2026 20:16:21] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:16:21,549 [INFO] 127.0.0.1 - - [28/Apr/2026 20:16:21] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:16:21,551 [INFO] 127.0.0.1 - - [28/Apr/2026 20:16:21] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:16:21,559 [INFO] 127.0.0.1 - - [28/Apr/2026 20:16:21] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:16:22,390 [INFO] 127.0.0.1 - - [28/Apr/2026 20:16:22] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:16:22,767 [INFO] 127.0.0.1 - - [28/Apr/2026 20:16:22] "GET /api/filter HTTP/1.1" 200 -
+2026-04-28 20:21:38,414 [INFO] 127.0.0.1 - - [28/Apr/2026 20:21:38] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:21:39,260 [INFO] 127.0.0.1 - - [28/Apr/2026 20:21:39] "GET /api/prospects/1 HTTP/1.1" 200 -
+2026-04-28 20:21:41,177 [INFO] 127.0.0.1 - - [28/Apr/2026 20:21:41] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:21:42,006 [INFO] 127.0.0.1 - - [28/Apr/2026 20:21:42] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:21:42,012 [INFO] 127.0.0.1 - - [28/Apr/2026 20:21:42] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:21:42,043 [INFO] 127.0.0.1 - - [28/Apr/2026 20:21:42] "GET /api/shortlist HTTP/1.1" 200 -
+2026-04-28 20:29:21,171 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:21] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 20:29:22,466 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:22] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:29:22,467 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:22] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:29:23,322 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:23] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:29:23,323 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:23] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:29:24,289 [INFO] Login success: analyst@nbascout.com
+2026-04-28 20:29:24,290 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:24] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 20:29:24,314 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:24] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:29:24,322 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:24] "GET /api/stats HTTP/1.1" 200 -
+2026-04-28 20:29:25,170 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:25] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:29:25,172 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:25] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:29:25,181 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:25] "GET /api/rankings HTTP/1.1" 200 -
+2026-04-28 20:29:25,182 [INFO] 127.0.0.1 - - [28/Apr/2026 20:29:25] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:35:26,283 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:26] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 20:35:27,573 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:27] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:35:27,581 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:27] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:35:28,426 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:28] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:35:28,436 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:28] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:35:30,706 [INFO] Login success: scout1@nbascout.com
+2026-04-28 20:35:30,706 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:30] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 20:35:30,731 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:30] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-28 20:35:30,734 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:30] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:35:30,743 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:30] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-28 20:35:30,745 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:30] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:35:31,571 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:31] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:35:31,581 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:31] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:35:47,799 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:47] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 20:35:47,829 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:47] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:35:49,109 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:49] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:35:49,120 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:49] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:35:49,143 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:49] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:35:54,377 [INFO] Login success: scout2@nbascout.com
+2026-04-28 20:35:54,378 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:54] "POST /api/login HTTP/1.1" 200 -
+2026-04-28 20:35:54,408 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:54] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:35:54,412 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:54] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-28 20:35:54,417 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:54] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:35:54,423 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:54] "GET /api/my-reports HTTP/1.1" 200 -
+2026-04-28 20:35:54,429 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:54] "GET /api/reports HTTP/1.1" 200 -
+2026-04-28 20:35:55,685 [INFO] 127.0.0.1 - - [28/Apr/2026 20:35:55] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:36:33,126 [INFO] 127.0.0.1 - - [28/Apr/2026 20:36:33] "POST /api/logout HTTP/1.1" 200 -
+2026-04-28 20:36:33,163 [INFO] 127.0.0.1 - - [28/Apr/2026 20:36:33] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:36:33,170 [INFO] 127.0.0.1 - - [28/Apr/2026 20:36:33] "GET /api/archetypes HTTP/1.1" 200 -
+2026-04-28 20:36:33,170 [INFO] 127.0.0.1 - - [28/Apr/2026 20:36:33] "GET /api/prospects HTTP/1.1" 200 -
+2026-04-28 20:36:33,180 [INFO] 127.0.0.1 - - [28/Apr/2026 20:36:33] "GET /api/prospects HTTP/1.1" 200 -

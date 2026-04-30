@@ -6,7 +6,8 @@ const POSITIONS = ['PG','SG','SF','PF','C']
 
 const BLANK_PROSPECT = {
   p_fname:'', p_lname:'', position:'PG', draft_year: 2026,
-  college_id:'', games_played:'', PPG:'', RPG:'', APG:''
+  college_id:'', games_played:'', PPG:'', RPG:'', APG:'',
+  date_of_birth:'', hometown:'', height:'', weight:''
 }
 
 export default function AdminDash() {
@@ -72,12 +73,16 @@ export default function AdminDash() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         ...pForm,
-        draft_year:   parseInt(pForm.draft_year),
-        college_id:   parseInt(pForm.college_id),
-        games_played: parseInt(pForm.games_played),
-        PPG: parseFloat(pForm.PPG),
-        RPG: parseFloat(pForm.RPG),
-        APG: parseFloat(pForm.APG),
+        draft_year:    parseInt(pForm.draft_year),
+        college_id:    parseInt(pForm.college_id),
+        games_played:  parseInt(pForm.games_played),
+        PPG:           parseFloat(pForm.PPG),
+        RPG:           parseFloat(pForm.RPG),
+        APG:           parseFloat(pForm.APG),
+        weight:        pForm.weight ? parseInt(pForm.weight) : null,
+        date_of_birth: pForm.date_of_birth || null,
+        hometown:      pForm.hometown || null,
+        height:        pForm.height || null,
       })
     })
     const data = await res.json()
@@ -210,31 +215,30 @@ export default function AdminDash() {
                   <div className="section-title">Add New Prospect</div>
                   <form onSubmit={addProspect} style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', alignItems: 'flex-end' }}>
                     {[
-                      ['First Name',    'p_fname',      'text',   'Zion'],
-                      ['Last Name',     'p_lname',      'text',   'Williams'],
-                      ['Draft Year',    'draft_year',   'number', '2026'],
-                      ['Games Played',  'games_played', 'number', '30'],
-                      ['PPG',           'PPG',          'number', '18.5'],
-                      ['RPG',           'RPG',          'number', '7.2'],
-                      ['APG',           'APG',          'number', '3.1'],
+                      ['First Name',    'p_fname',        'text',   'Zion'],
+                      ['Last Name',     'p_lname',        'text',   'Williams'],
+                      ['Date of Birth', 'date_of_birth',  'date',   ''],
+                      ['Hometown',      'hometown',        'text',   'New York, NY'],
+                      ['Height',        'height',          'text',   '6-7'],
+                      ['Weight (lbs)',  'weight',          'number', '210'],
+                      ['College',       'college_name',    'text',   'Duke University'],
+                      ['Draft Year',    'draft_year',      'number', '2026'],
+                      ['Games Played',  'games_played',    'number', '30'],
+                      ['PPG',           'PPG',             'number', '18.5'],
+                      ['RPG',           'RPG',             'number', '7.2'],
+                      ['APG',           'APG',             'number', '3.1'],
                     ].map(([label, key, type, ph]) => (
                       <div key={key} className="form-group" style={{ flex: '1 1 120px' }}>
                         <label>{label}</label>
-                        <input type={type} placeholder={ph} value={pForm[key]} step="any"
-                          onChange={e => setPForm(p => ({ ...p, [key]: e.target.value }))} required />
+                        <input type={type} placeholder={ph} value={pForm[key] || ''} step="any"
+                          onChange={e => setPForm(p => ({ ...p, [key]: e.target.value }))}
+                          required={['p_fname','p_lname','draft_year','games_played','PPG','RPG','APG','college_name'].includes(key)} />
                       </div>
                     ))}
                     <div className="form-group" style={{ flex: '1 1 100px' }}>
                       <label>Position</label>
                       <select value={pForm.position} onChange={e => setPForm(p => ({ ...p, position: e.target.value }))}>
                         {POSITIONS.map(pos => <option key={pos} value={pos}>{pos}</option>)}
-                      </select>
-                    </div>
-                    <div className="form-group" style={{ flex: '1 1 160px' }}>
-                      <label>College</label>
-                      <select value={pForm.college_id} onChange={e => setPForm(p => ({ ...p, college_id: e.target.value }))} required>
-                        <option value="">Select college...</option>
-                        {colleges.map(c => <option key={c.college_id} value={c.college_id}>{c.c_name}</option>)}
                       </select>
                     </div>
                     <button type="submit" className="btn btn-primary" style={{ height: 38 }}>Add Prospect</button>

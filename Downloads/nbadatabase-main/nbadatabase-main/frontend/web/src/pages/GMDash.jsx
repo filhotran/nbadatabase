@@ -41,11 +41,11 @@ export default function GMDash() {
     setLoading(false)
   }
 
-  const addToShortlist = async (pid) => {
+  const addToShortlist = async (pid, notes) => {
     const res  = await fetch('/api/shortlist', {
       method: 'POST', credentials: 'include',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ prospect_id: pid, internal_notes: '' })
+      body: JSON.stringify({ prospect_id: pid, internal_notes: notes || '' })
     })
     const data = await res.json()
     if (data.ok) {
@@ -55,6 +55,11 @@ export default function GMDash() {
     } else {
       flash(data.message || 'Error', 'error')
     }
+    setNoteModal(null)
+  }
+
+  const promptAndAdd = (pid) => {
+    setNoteModal({ pid, notes: '' })
   }
 
   const removeFromShortlist = async (pid) => {
@@ -171,7 +176,7 @@ export default function GMDash() {
                             <td>
                               <button
                                 className={`btn btn-sm ${onShortlist(pid) ? 'btn-ghost' : 'btn-primary'}`}
-                                onClick={() => onShortlist(pid) ? removeFromShortlist(pid) : addToShortlist(pid)}
+                                onClick={() => onShortlist(pid) ? removeFromShortlist(pid) : promptAndAdd(pid)}
                               >
                                 {onShortlist(pid) ? '★ Listed' : '+ Shortlist'}
                               </button>
@@ -277,6 +282,31 @@ export default function GMDash() {
           </div>
         )}
       </main>
+
+      {/* Notes Modal */}
+      {noteModal && (
+        <div style={{ position: 'fixed', inset: 0, background: 'rgba(0,0,0,0.7)', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 1000 }}>
+          <div className="card" style={{ width: 400, padding: '1.5rem' }}>
+            <div className="section-title" style={{ marginBottom: '0.75rem' }}>Add Internal Notes</div>
+            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '0.75rem' }}>
+              Optional — add scouting notes for this prospect before adding to shortlist.
+            </p>
+            <textarea
+              rows={4}
+              placeholder="e.g. High upside player, fits our system..."
+              value={noteModal.notes}
+              onChange={e => setNoteModal(prev => ({ ...prev, notes: e.target.value }))}
+              style={{ width: '100%', padding: '0.5rem', background: 'var(--bg-elevated)', border: '1px solid var(--border)', borderRadius: 6, color: 'var(--text)', fontSize: '0.85rem', resize: 'vertical' }}
+            />
+            <div style={{ display: 'flex', gap: '0.5rem', marginTop: '1rem', justifyContent: 'flex-end' }}>
+              <button className="btn btn-ghost btn-sm" onClick={() => setNoteModal(null)}>Cancel</button>
+              <button className="btn btn-primary btn-sm" onClick={() => addToShortlist(noteModal.pid, noteModal.notes)}>
+                Add to Shortlist
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
